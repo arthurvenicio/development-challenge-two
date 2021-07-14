@@ -1,0 +1,53 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+
+    overflow: hidden;
+
+    background: #c4d9bb;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    padding: 2rem;
+    box-shadow: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    background: #f8fbf7;
+    width: 55rem;
+    max-width: 60rem;
+    max-height: 25rem;
+
+    .cardElement {
+        overflow-y: scroll;
+        overflow-x: hidden;
+        gap: 1.4rem;
+        max-width: 50rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        &::-webkit-scrollbar {
+            width: 0.675rem;
+        }
+
+        &::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background-color: var(--gray-100);
+            border-radius: 0.5rem;
+        }
+    }
+}

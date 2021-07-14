@@ -1,0 +1,47 @@
+.listItem {
+    width: 46rem;
+    min-width: 35rem;
+    height: 3.5rem;
+    min-height: 3.5rem;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.54rem;
+
+    padding: 1rem;
+
+    font-family: Roboto, sans-serif;
+    color: #fff;
+
+    background: #9eb893;
+    border-radius: 0.5rem;
+
+    .Link {
+        color: #fff;
+        text-decoration: none;
+        .name {
+            width: 12rem;
+
+            display: flex;
+            justify-content: flex-start;
+            gap: 0.5rem;
+        }
+    }
+
+    .birhDate {
+        width: 11rem;
+        display: flex;
+        justify-content: flex-start;
+        gap: 0.5rem;
+    }
+
+    .patientId {
+        width: 17rem;
+
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 0.5rem;
+    }
+}
